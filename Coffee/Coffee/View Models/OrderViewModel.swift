@@ -31,7 +31,7 @@ extension OrderViewModel {
         return self.order.name
     }
     var coffeename: String {
-        return self.order.coffeeName.capitalized
+        return self.order.coffeeName.rawValue.capitalized
     }
     
     var total: Double {
@@ -39,7 +39,7 @@ extension OrderViewModel {
     }
     
     var size: String {
-        return self.order.size.fastestEncoding.rawValue.description.capitalized
+        return self.order.size.rawValue.capitalized
     }
 }
  

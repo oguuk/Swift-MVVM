@@ -7,39 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96CAEDD12783347F00951A0F /* AddCoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CAEDD02783347F00951A0F /* AddCoffeeViewModel.swift */; };
-		96D1E2A3277BF9A7006C2C45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D1E2A2277BF9A7006C2C45 /* AppDelegate.swift */; };
-		96D1E2A5277BF9A7006C2C45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D1E2A4277BF9A7006C2C45 /* SceneDelegate.swift */; };
-		96D1E2A7277BF9A7006C2C45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D1E2A6277BF9A7006C2C45 /* ViewController.swift */; };
-		96D1E2AA277BF9A7006C2C45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D1E2A8277BF9A7006C2C45 /* Main.storyboard */; };
-		96D1E2AC277BF9AB006C2C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D1E2AB277BF9AB006C2C45 /* Assets.xcassets */; };
-		96D1E2AF277BF9AB006C2C45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D1E2AD277BF9AB006C2C45 /* LaunchScreen.storyboard */; };
-		96D1E2B8277BFC1A006C2C45 /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D1E2B7277BFC1A006C2C45 /* OrdersTableViewController.swift */; };
-		96D1E2BC277BFC75006C2C45 /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D1E2BB277BFC75006C2C45 /* AddOrderViewController.swift */; };
-		96D1E2C0277C1FD3006C2C45 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D1E2BF277C1FD3006C2C45 /* Webservices.swift */; };
-		96D1E2C3277C2989006C2C45 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D1E2C2277C2989006C2C45 /* Orders.swift */; };
-		96D1E2C6277C3B88006C2C45 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D1E2C5277C3B88006C2C45 /* OrderViewModel.swift */; };
+		96C1A732277957E500F5A70C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C1A731277957E500F5A70C /* AppDelegate.swift */; };
+		96C1A734277957E500F5A70C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C1A733277957E500F5A70C /* SceneDelegate.swift */; };
+		96C1A736277957E500F5A70C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C1A735277957E500F5A70C /* ViewController.swift */; };
+		96C1A739277957E500F5A70C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C1A737277957E500F5A70C /* Main.storyboard */; };
+		96C1A73B277957E800F5A70C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C1A73A277957E800F5A70C /* Assets.xcassets */; };
+		96C1A73E277957E800F5A70C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C1A73C277957E800F5A70C /* LaunchScreen.storyboard */; };
+		96C1A7472779586B00F5A70C /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C1A7462779586B00F5A70C /* NewsListTableViewController.swift */; };
+		96C1A74A27795FED00F5A70C /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C1A74927795FED00F5A70C /* WebService.swift */; };
+		96C1A74D2779658B00F5A70C /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C1A74C2779658B00F5A70C /* Article.swift */; };
+		96C1A75027797C6F00F5A70C /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C1A74F27797C6F00F5A70C /* ArticleViewModel.swift */; };
+		96C1A7532779836100F5A70C /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C1A7522779836100F5A70C /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		96CAEDD02783347F00951A0F /* AddCoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeViewModel.swift; sourceTree = "<group>"; };
-		96D1E29F277BF9A7006C2C45 /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		96D1E2A2277BF9A7006C2C45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96D1E2A4277BF9A7006C2C45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		96D1E2A6277BF9A7006C2C45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		96D1E2A9277BF9A7006C2C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		96D1E2AB277BF9AB006C2C45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		96D1E2AE277BF9AB006C2C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		96D1E2B0277BF9AB006C2C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96D1E2B7277BFC1A006C2C45 /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
-		96D1E2BB277BFC75006C2C45 /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
-		96D1E2BF277C1FD3006C2C45 /* Webservices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
-		96D1E2C2277C2989006C2C45 /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
-		96D1E2C5277C3B88006C2C45 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		96C1A72E277957E500F5A70C /* MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C1A731277957E500F5A70C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96C1A733277957E500F5A70C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96C1A735277957E500F5A70C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96C1A738277957E500F5A70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96C1A73A277957E800F5A70C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96C1A73D277957E800F5A70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96C1A73F277957E800F5A70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C1A7462779586B00F5A70C /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		96C1A74927795FED00F5A70C /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		96C1A74C2779658B00F5A70C /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		96C1A74F27797C6F00F5A70C /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		96C1A7522779836100F5A70C /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		96D1E29C277BF9A7006C2C45 /* Frameworks */ = {
+		96C1A72B277957E500F5A70C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,110 +47,117 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		96D1E296277BF9A7006C2C45 = {
+		96C1A725277957E500F5A70C = {
 			isa = PBXGroup;
 			children = (
-				96D1E2A1277BF9A7006C2C45 /* Coffee */,
-				96D1E2A0277BF9A7006C2C45 /* Products */,
+				96C1A730277957E500F5A70C /* MVVM */,
+				96C1A72F277957E500F5A70C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		96D1E2A0277BF9A7006C2C45 /* Products */ = {
+		96C1A72F277957E500F5A70C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96D1E29F277BF9A7006C2C45 /* Coffee.app */,
+				96C1A72E277957E500F5A70C /* MVVM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		96D1E2A1277BF9A7006C2C45 /* Coffee */ = {
+		96C1A730277957E500F5A70C /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				96D1E2C4277C3B6C006C2C45 /* View Models */,
-				96D1E2C1277C296A006C2C45 /* Models */,
-				96D1E2BE277C1FBF006C2C45 /* Services */,
-				96D1E2B6277BFC02006C2C45 /* Controllers */,
-				96D1E2A2277BF9A7006C2C45 /* AppDelegate.swift */,
-				96D1E2A4277BF9A7006C2C45 /* SceneDelegate.swift */,
-				96D1E2A6277BF9A7006C2C45 /* ViewController.swift */,
-				96D1E2A8277BF9A7006C2C45 /* Main.storyboard */,
-				96D1E2AB277BF9AB006C2C45 /* Assets.xcassets */,
-				96D1E2AD277BF9AB006C2C45 /* LaunchScreen.storyboard */,
-				96D1E2B0277BF9AB006C2C45 /* Info.plist */,
+				96C1A7512779832B00F5A70C /* cells */,
+				96C1A74E27797C4B00F5A70C /* View Models */,
+				96C1A74B2779657700F5A70C /* Models */,
+				96C1A74827795FD300F5A70C /* Services */,
+				96C1A735277957E500F5A70C /* ViewController.swift */,
+				96C1A7452779584C00F5A70C /* controllers */,
+				96C1A731277957E500F5A70C /* AppDelegate.swift */,
+				96C1A733277957E500F5A70C /* SceneDelegate.swift */,
+				96C1A737277957E500F5A70C /* Main.storyboard */,
+				96C1A73A277957E800F5A70C /* Assets.xcassets */,
+				96C1A73C277957E800F5A70C /* LaunchScreen.storyboard */,
+				96C1A73F277957E800F5A70C /* Info.plist */,
 			);
-			path = Coffee;
+			path = MVVM;
 			sourceTree = "<group>";
 		};
-		96D1E2B6277BFC02006C2C45 /* Controllers */ = {
+		96C1A7452779584C00F5A70C /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				96D1E2B7277BFC1A006C2C45 /* OrdersTableViewController.swift */,
-				96D1E2BB277BFC75006C2C45 /* AddOrderViewController.swift */,
+				96C1A7462779586B00F5A70C /* NewsListTableViewController.swift */,
 			);
-			path = Controllers;
+			path = controllers;
 			sourceTree = "<group>";
 		};
-		96D1E2BE277C1FBF006C2C45 /* Services */ = {
+		96C1A74827795FD300F5A70C /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				96D1E2BF277C1FD3006C2C45 /* Webservices.swift */,
+				96C1A74927795FED00F5A70C /* WebService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
 		};
-		96D1E2C1277C296A006C2C45 /* Models */ = {
+		96C1A74B2779657700F5A70C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				96D1E2C2277C2989006C2C45 /* Orders.swift */,
+				96C1A74C2779658B00F5A70C /* Article.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		96D1E2C4277C3B6C006C2C45 /* View Models */ = {
+		96C1A74E27797C4B00F5A70C /* View Models */ = {
 			isa = PBXGroup;
 			children = (
-				96D1E2C5277C3B88006C2C45 /* OrderViewModel.swift */,
-				96CAEDD02783347F00951A0F /* AddCoffeeViewModel.swift */,
+				96C1A74F27797C6F00F5A70C /* ArticleViewModel.swift */,
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		96C1A7512779832B00F5A70C /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				96C1A7522779836100F5A70C /* ArticleTableViewCell.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96D1E29E277BF9A7006C2C45 /* Coffee */ = {
+		96C1A72D277957E500F5A70C /* MVVM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96D1E2B3277BF9AB006C2C45 /* Build configuration list for PBXNativeTarget "Coffee" */;
+			buildConfigurationList = 96C1A742277957E800F5A70C /* Build configuration list for PBXNativeTarget "MVVM" */;
 			buildPhases = (
-				96D1E29B277BF9A7006C2C45 /* Sources */,
-				96D1E29C277BF9A7006C2C45 /* Frameworks */,
-				96D1E29D277BF9A7006C2C45 /* Resources */,
+				96C1A72A277957E500F5A70C /* Sources */,
+				96C1A72B277957E500F5A70C /* Frameworks */,
+				96C1A72C277957E500F5A70C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Coffee;
-			productName = Coffee;
-			productReference = 96D1E29F277BF9A7006C2C45 /* Coffee.app */;
+			name = MVVM;
+			productName = MVVM;
+			productReference = 96C1A72E277957E500F5A70C /* MVVM.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		96D1E297277BF9A7006C2C45 /* Project object */ = {
+		96C1A726277957E500F5A70C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					96D1E29E277BF9A7006C2C45 = {
+					96C1A72D277957E500F5A70C = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 96D1E29A277BF9A7006C2C45 /* Build configuration list for PBXProject "Coffee" */;
+			buildConfigurationList = 96C1A729277957E500F5A70C /* Build configuration list for PBXProject "MVVM" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -160,61 +165,60 @@
 				en,
 				Base,
 			);
-			mainGroup = 96D1E296277BF9A7006C2C45;
-			productRefGroup = 96D1E2A0277BF9A7006C2C45 /* Products */;
+			mainGroup = 96C1A725277957E500F5A70C;
+			productRefGroup = 96C1A72F277957E500F5A70C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96D1E29E277BF9A7006C2C45 /* Coffee */,
+				96C1A72D277957E500F5A70C /* MVVM */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		96D1E29D277BF9A7006C2C45 /* Resources */ = {
+		96C1A72C277957E500F5A70C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96D1E2AF277BF9AB006C2C45 /* LaunchScreen.storyboard in Resources */,
-				96D1E2AC277BF9AB006C2C45 /* Assets.xcassets in Resources */,
-				96D1E2AA277BF9A7006C2C45 /* Main.storyboard in Resources */,
+				96C1A73E277957E800F5A70C /* LaunchScreen.storyboard in Resources */,
+				96C1A73B277957E800F5A70C /* Assets.xcassets in Resources */,
+				96C1A739277957E500F5A70C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		96D1E29B277BF9A7006C2C45 /* Sources */ = {
+		96C1A72A277957E500F5A70C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96D1E2C0277C1FD3006C2C45 /* Webservices.swift in Sources */,
-				96D1E2C3277C2989006C2C45 /* Orders.swift in Sources */,
-				96D1E2B8277BFC1A006C2C45 /* OrdersTableViewController.swift in Sources */,
-				96D1E2A7277BF9A7006C2C45 /* ViewController.swift in Sources */,
-				96D1E2BC277BFC75006C2C45 /* AddOrderViewController.swift in Sources */,
-				96D1E2A3277BF9A7006C2C45 /* AppDelegate.swift in Sources */,
-				96D1E2A5277BF9A7006C2C45 /* SceneDelegate.swift in Sources */,
-				96D1E2C6277C3B88006C2C45 /* OrderViewModel.swift in Sources */,
-				96CAEDD12783347F00951A0F /* AddCoffeeViewModel.swift in Sources */,
+				96C1A7472779586B00F5A70C /* NewsListTableViewController.swift in Sources */,
+				96C1A736277957E500F5A70C /* ViewController.swift in Sources */,
+				96C1A74D2779658B00F5A70C /* Article.swift in Sources */,
+				96C1A732277957E500F5A70C /* AppDelegate.swift in Sources */,
+				96C1A7532779836100F5A70C /* ArticleTableViewCell.swift in Sources */,
+				96C1A74A27795FED00F5A70C /* WebService.swift in Sources */,
+				96C1A75027797C6F00F5A70C /* ArticleViewModel.swift in Sources */,
+				96C1A734277957E500F5A70C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		96D1E2A8277BF9A7006C2C45 /* Main.storyboard */ = {
+		96C1A737277957E500F5A70C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				96D1E2A9277BF9A7006C2C45 /* Base */,
+				96C1A738277957E500F5A70C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		96D1E2AD277BF9AB006C2C45 /* LaunchScreen.storyboard */ = {
+		96C1A73C277957E800F5A70C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				96D1E2AE277BF9AB006C2C45 /* Base */,
+				96C1A73D277957E800F5A70C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -222,7 +226,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		96D1E2B1277BF9AB006C2C45 /* Debug */ = {
+		96C1A740277957E800F5A70C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -283,7 +287,7 @@
 			};
 			name = Debug;
 		};
-		96D1E2B2277BF9AB006C2C45 /* Release */ = {
+		96C1A741277957E800F5A70C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -338,7 +342,7 @@
 			};
 			name = Release;
 		};
-		96D1E2B4277BF9AB006C2C45 /* Debug */ = {
+		96C1A743277957E800F5A70C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -347,7 +351,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M79928L8PF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Coffee/Info.plist;
+				INFOPLIST_FILE = MVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -358,7 +362,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.future.Coffee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.future.MVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -366,7 +370,7 @@
 			};
 			name = Debug;
 		};
-		96D1E2B5277BF9AB006C2C45 /* Release */ = {
+		96C1A744277957E800F5A70C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -375,7 +379,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M79928L8PF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Coffee/Info.plist;
+				INFOPLIST_FILE = MVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -386,7 +390,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.future.Coffee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.future.MVVM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -397,25 +401,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		96D1E29A277BF9A7006C2C45 /* Build configuration list for PBXProject "Coffee" */ = {
+		96C1A729277957E500F5A70C /* Build configuration list for PBXProject "MVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96D1E2B1277BF9AB006C2C45 /* Debug */,
-				96D1E2B2277BF9AB006C2C45 /* Release */,
+				96C1A740277957E800F5A70C /* Debug */,
+				96C1A741277957E800F5A70C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96D1E2B3277BF9AB006C2C45 /* Build configuration list for PBXNativeTarget "Coffee" */ = {
+		96C1A742277957E800F5A70C /* Build configuration list for PBXNativeTarget "MVVM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96D1E2B4277BF9AB006C2C45 /* Debug */,
-				96D1E2B5277BF9AB006C2C45 /* Release */,
+				96C1A743277957E800F5A70C /* Debug */,
+				96C1A744277957E800F5A70C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 96D1E297277BF9A7006C2C45 /* Project object */;
+	rootObject = 96C1A726277957E500F5A70C /* Project object */;
 }

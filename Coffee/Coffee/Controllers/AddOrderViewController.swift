@@ -12,6 +12,9 @@ class AddOrderViewController: UIViewController, UITableViewDelegate, UITableView
     
     private var vm = AddCoffeeOrderViewModel()//관련된 모든 data를 제공
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
+    
     private var coffeeSizeSegmentedControl: UISegmentedControl!
     
     override func viewDidLoad() {
@@ -30,6 +33,14 @@ class AddOrderViewController: UIViewController, UITableViewDelegate, UITableView
     
         self.coffeeSizeSegmentedControl.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {//delegate function of the table
+        tableView.cellForRow(at: indexPath)?.accessoryType =  .checkmark  //particular indexpath
+        //체크마크 생성
+    }
+    
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        tableView.cellForRow(at: indexPath)?.accessoryType = .none //한개만 체크 가능하게
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.vm.types.count
@@ -41,4 +52,29 @@ class AddOrderViewController: UIViewController, UITableViewDelegate, UITableView
         return cell
     }
     
+    @IBAction func save(){
+        let name = self.nameTextField.text
+        let email = self.emailTextField.text
+        
+        let selectedSize = self.coffeeSizeSegmentedControl.titleForSegment(at: self.coffeeSizeSegmentedControl.selectedSegmentIndex)
+        
+        guard let indexPath = self.tableView.indexPathForSelectedRow else {
+            fatalError("Error in selecting coffee!")
+        }
+        
+        self.vm.name = name
+        self.vm.email = email
+        
+        self.vm.selectedSize = selectedSize
+        self.vm.selectedType = self.vm.types[indexPath.row]
+        
+        Webservice().load(resource: Order.create(vm: self.vm)) { result in
+            switch result {
+            case .success(let order):
+                print(order)
+            case .failure(let error):
+                print(error)
+            }
+        }
+    }
 }

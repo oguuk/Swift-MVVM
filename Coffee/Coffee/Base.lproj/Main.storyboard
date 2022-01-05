@@ -71,9 +71,14 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Save" style="plain" id="ad2-1d-5Iz">
                             <color key="tintColor" name="AccentColor"/>
+                            <connections>
+                                <action selector="save" destination="btn-7E-Ofk" id="sgq-FA-pr0"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="emailTextField" destination="9FQ-yL-7Mk" id="mnf-d6-jA8"/>
+                        <outlet property="nameTextField" destination="6Dw-FE-Apl" id="Vke-e4-8Sy"/>
                         <outlet property="tableView" destination="V3i-gK-tIc" id="DQY-Qi-6jH"/>
                     </connections>
                 </viewController>

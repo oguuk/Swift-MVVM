@@ -26,4 +26,5 @@ struct StockViewModel {
     var change: String {
         return self.stock.change
     }
+    
 }

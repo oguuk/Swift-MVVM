@@ -6,24 +6,40 @@
 //
 
 import Foundation
+import SwiftUI
 
-class StockListViewModel: ObservableObject { //ObservableObject는 스스로 업데이트를 가능하게 함
+class StockListViewModel: ObservableObject {//ObservableObject는 스스로 업데이트를 가능하게 함
     
+    @Published var dragOffset: CGSize = CGSize(width: 0, height: 650)
     @Published var searchTerm: String = ""
     @Published var stocks: [StockViewModel] = [StockViewModel]()
+    @Published var news: [NewsArticleViewModel] = [NewsArticleViewModel]()
     
-    func load(){
+    func load() {
+        fetchNews()
         fetchStocks()
     }
     
-    private func fetchStocks() {
-        Webservice().getStocks { stocks in
-            if let stocks  = stocks {
-                DispatchQueue.main.async{
-                    self.stocks = stocks.map(StockViewModel.init)
-                }
-                
+    private func fetchNews() {
+        
+        Webservice().getTopNews { news in
+            if let news = news {
+                self.news = news.map(NewsArticleViewModel.init)
             }
         }
+        
     }
+    
+    private func fetchStocks() {
+        
+        Webservice().getStocks { stocks in
+            if let stocks = stocks {
+                DispatchQueue.main.async {
+                    self.stocks = stocks.map(StockViewModel.init)
+                }
+            }
+        }
+        
+    }
+    
 }
